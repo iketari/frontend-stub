@@ -1,11 +1,5 @@
 define([
-    'views/main',
-    'views/scoreboard',
-    'views/game'
 ], function(
-    mainView,
-    scoreboardView,
-    gameView
 ){
 
     var Router = Backbone.Router.extend({

@@ -5,9 +5,6 @@ define([
 ){
 
     var Model = Backbone.Model.extend({
-        defaults: {
-            // TODO
-        }
     });
 
     return Model;

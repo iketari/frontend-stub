@@ -1,18 +1,10 @@
 define([
-    'backbone',
-    'models/score'
+    'backbone'
 ], function(
-    Backbone,
-    Model
+    Backbone
 ){
 
     var Collection = Backbone.Collection.extend({
-        model: Model,
-        initialize: function(){
-            this.add([
-                // TODO
-            ]);
-        }
     });
 
     return new Collection();
