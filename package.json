@@ -10,6 +10,7 @@
     "grunt-fest": "~0.1.4",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-express-server": "~0.4.13",
-    "express": "~3.5.0"
+    "express": "~3.5.0",
+    "artist": "~0.1.5"
   }
 }
