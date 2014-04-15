@@ -18,7 +18,7 @@
 			<script>
 				console.time('load');
 			</script>
-			<script src="js/build/main.min.js"></script>
+			<script src="js/build.min.js"></script>
 			<script>
 				require(['main'], function(){
 					console.timeEnd('load');
