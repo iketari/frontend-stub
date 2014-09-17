@@ -6,6 +6,7 @@ define([
         routes: {
             'scoreboard': 'scoreboardAction',
             'game': 'gameAction',
+            'login': 'loginAction',
             '*default': 'defaultActions'
         },
         defaultActions: function () {
@@ -15,6 +16,9 @@ define([
             // TODO
         },
         gameAction: function () {
+            // TODO
+        },
+        loginAction: function () {
             // TODO
         }
     });
