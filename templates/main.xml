@@ -1,2 +1,15 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+	<fest:include src="../bem/bundles/all/all.xml"></fest:include>
+
+
+	<fest:get name="main-menu">
+		{
+			items: [
+				{
+					href: '#login',
+					text: 'login'
+				}
+			]
+		}
+	</fest:get>
 </fest:template>
