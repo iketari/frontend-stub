@@ -29,8 +29,16 @@ module.exports = function (grunt) {
             }
         },
         watch: {
+            cssmin: {
+                files: ['public_html/css/**/_*.css', 'bem/blocks/**/*.css'],
+                tasks: ['cssmin'],
+                options: {
+                    interrupt: true,
+                    atBegin: true
+                }
+            },
             fest: {
-                files: ['templates/*.xml'],
+                files: ['templates/*.xml', 'bem/blocks/**/*.xml'],
                 tasks: ['fest'],
                 options: {
                     interrupt: true,
@@ -47,6 +55,17 @@ module.exports = function (grunt) {
                 }
             }
         },
+        cssmin: {
+            options: {
+                shorthandCompacting: false,
+                roundingPrecision: -1
+            },
+            target: {
+                files: {
+                    'public_html/css/main.css': ['public_html/css/_main.css']
+                }
+            }
+        },
         concurrent: {
             target: ['watch', 'shell'],
             options: {
@@ -59,6 +78,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-fest');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     grunt.registerTask('default', ['concurrent']);
 

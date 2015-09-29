@@ -1,7 +1,14 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
 	<fest:set name="main-menu">
 		<div class="main-menu">
-			
+			<div class="main-menu__title">
+				<fest:value>params.title</fest:value>
+			</div>
+			<fest:for iterate="params.items" value="item" index="i">
+				<a class="main-menu__item" href="{item.href}">
+					<fest:value>item.text</fest:value>
+				</a>
+			</fest:for>
 		</div>
 	</fest:set>
 </fest:template>

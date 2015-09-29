@@ -1,3 +1,11 @@
 .main-menu {
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.main-menu__item {
 	display: block;
 }
