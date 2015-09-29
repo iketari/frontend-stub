@@ -3,11 +3,16 @@ define(function () { return function (__fest_context){"use strict";var __fest_se
 				items: [
 					{
 						href: '#login',
-						text: 'login'
+						text: 'Войти'
 					},
 					{
 						href: '#game',
 						text: 'Играть'
+					},
+
+					{
+						href: '#score',
+						text: 'Лучшие игроки'
 					},
 				]
 			}}catch(e){__fest_log_error(e.message)}__fest_chunks.push(__fest_buf,{name:__fest_select,params:__fest_params,cp:false});__fest_buf="";__fest_buf+=("</div>");__fest_to=__fest_chunks.length;if (__fest_to) {__fest_iterator = 0;for (;__fest_iterator<__fest_to;__fest_iterator++) {__fest_chunk=__fest_chunks[__fest_iterator];if (typeof __fest_chunk==="string") {__fest_html+=__fest_chunk;} else {__fest_fn=__fest_blocks[__fest_chunk.name];if (__fest_fn) __fest_html+=__fest_call(__fest_fn,__fest_chunk.params,__fest_chunk.cp);}}return __fest_html+__fest_buf;} else {return __fest_buf;}} ; });

@@ -8,11 +8,16 @@
 				items: [
 					{
 						href: '#login',
-						text: 'login'
+						text: 'Войти'
 					},
 					{
 						href: '#game',
 						text: 'Играть'
+					},
+
+					{
+						href: '#score',
+						text: 'Лучшие игроки'
 					},
 				]
 			}
