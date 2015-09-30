@@ -1,4 +1,35 @@
-.form
-{
-    
+.form {
+	margin: 30px auto 0;
+    width: 500px;
+    background-color: #fff;
+    background-image: linear-gradient(90deg, transparent 110px, #abced4 110px, #abced4 113px, transparent 113px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    padding: 60px 0 10px 0;
+}
+
+.form__content {
+	display: flex;
+    flex-flow: row wrap;
+	width: 500px;
+}
+
+.form__label {
+	display: block;
+  	width: 150px;
+}
+
+.form__input {
+	width: 250px;
+  	margin-bottom: 7px;
+}
+
+.form__control {
+	display: inline-block;
+    padding: 5px;
+    color: #2C1DA0;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Bad Script', cursive;
+    margin-right: 23px;
 }

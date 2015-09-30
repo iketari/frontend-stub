@@ -1,7 +1,21 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
 	<fest:set name="form">
-		<div class="form">
-			
-		</div>
+		<form class="form">
+			<div class="form__content">
+				<fest:for iterate="params.rows" value="row" index="i">
+					<label for="{row.name}" class="form__label">
+						<fest:value>row.label</fest:value>
+					</label>
+					<input name="{row.name}" id="{row.name}" type="text" class="form__input"/>
+				</fest:for>
+			</div>
+			<div class="form__controls">
+				<fest:for iterate="params.controls" value="control" index="i">
+					<a href="{control.href}" class="form__control">
+						<fest:value>control.text</fest:value>
+					</a>
+				</fest:for>
+			</div>
+		</form>
 	</fest:set>
 </fest:template>
