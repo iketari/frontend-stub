@@ -1,9 +1,10 @@
 .header {
+	display: inline-block;
     font-family: 'Kelly Slab',cursive;
+    box-shadow: 0px 0px 70px 10px rgba(255,255,255,0.5);
     color: #fff;
     font-size: 54px;
-    background: rgba(255,255,255,0.3);
-    box-shadow: 0px 0px 70px 10px rgba(255,255,255,0.5);
+    background: rgba(255,255,255,.3);
     border-radius: 20px;
-    margin: 0 0 35px;
+    margin: 0 0 10px;
 }
