@@ -1,3 +1,4 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
 	<fest:include src="../../blocks/main-menu/main-menu.xml"/>
+	<fest:include src="../../blocks/header/header.xml"/>
 </fest:template>

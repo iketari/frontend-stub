@@ -2,9 +2,15 @@
 	<fest:include src="../bem/bundles/all/all.xml"></fest:include>
 
 	<div class="content">
+
+		<fest:get name="header">
+			{
+				text: 'Главное меню'
+			}
+		</fest:get>
+
 		<fest:get name="main-menu">
 			{
-				title: 'Главное меню',
 				items: [
 					{
 						href: '#login',

@@ -21,10 +21,11 @@
 
 .main-menu__item {
     display: block;
+    padding: 5px;
     color: #FFF;
-    font-size: 30px;
-    background: rgba(0,0,0,0.4);
+    font-size: 22px;
+    background: rgba(0,0,0,.4);
     border: 1px solid #000;
-    margin: 20px 0px;
+    margin: 20px 0;
     text-decoration: none;
 }

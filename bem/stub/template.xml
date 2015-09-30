@@ -1,0 +1,7 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+	<fest:set name="{{blockName}}{{elemName}}{{modName}}{{modVal}}">
+		<div class="{{blockName}}{{elemName}}{{modName}}{{modVal}}">
+			{{cursor}}
+		</div>
+	</fest:set>
+</fest:template>
